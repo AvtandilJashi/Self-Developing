@@ -31,8 +31,6 @@ user_age = int(input('Enter your age: '))
 
 print(f'Hello {user_name3}, you are {user_age} old.')
 
-
-
 #Homework 5
 
 str = input('Enter letter: ')
