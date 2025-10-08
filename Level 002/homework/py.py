@@ -89,7 +89,7 @@ print(result5)
 
 #Homework 5
 
-user_name = 'gela'
+user_name = 'gelaa'
 last_name = 'barkalaia'
 model_name = 'bentayaga'
 introduce_year = 2022
