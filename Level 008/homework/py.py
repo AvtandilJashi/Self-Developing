@@ -112,7 +112,7 @@ else:
 
 #Homework 9
 
-password = 'xoda egre bicho'
+password = 'ხოდა ეგრე ბიჭო'
 
 guess = input('Enter your passsword: ')
 
@@ -128,9 +128,9 @@ else:
 #for loop
 for i in range(50):
     if i % 2 == 0:
-        print('Even')
+        print('Even', i)
     else: 
-        print('Odd')
+        print('Odd', i)
 
 #while loop
 num = 0
