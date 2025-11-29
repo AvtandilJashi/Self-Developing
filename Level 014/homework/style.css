@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page 1 Design */
+
+body {
+    background-color: bisque
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: brown;
+    text-transform: uppercase;
+}
+
+.start {
+    text-align: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+    color: brown;
+}
+
+
+/* Page 3 Design */
+
+main a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* Page 4 Design */
+
+form {
+    margin-top: 50px;
+    color: brown;
+    font-family: sans-serif;
+}

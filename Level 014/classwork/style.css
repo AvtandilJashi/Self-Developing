@@ -1,0 +1,97 @@
+/* Homework 1 CSS */
+
+div p b {
+    color: red;
+    font-size: 40px;
+    background-color: blue;
+    text-align: center;
+}
+
+div p i {
+    color: yellow;
+    background-color: violet;
+    font-size: 35px;
+    text-align: right;
+    border: 1px solid green;
+}
+
+/* Homework 2 CSS */
+
+#p1 {
+    color: violet;
+    background-color: yellow;
+    border: 2px solid violet;
+}
+
+#p2 {
+    color: blue;
+    background-color: yellow;
+    border: 2px solid blue;
+}
+
+.same {
+    color: red;
+    background-color: black;
+    border: 2px solid red;
+}
+
+.same2 {
+    color: purple;
+    background-color: yellow;
+    border: 2px solid purple;
+}
+
+.same3 {
+    color: yellow;
+    background-color: black;
+    border: 2px solid yellow;
+}
+
+.same4 {
+    color: greenyellow;
+    background-color: blue;
+    border: 2px solid greenyellow;
+}
+
+/* Homework 3 CSS */
+
+#html {
+    color: yellow;
+    background-color: black;
+    border: 2px solid yellow;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#css {
+    color: violet;
+    background-color: yellow;
+    border: 2px solid violet;
+    text-align: right;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#js {
+    color: blue;
+    background-color: yellow;
+    border: 2px solid blue;
+    text-align: left;
+    font-size: 30px;
+    font-style: italic;
+}
+
+/* Homework 4 CSS */
+
+.davigale {
+    color: red;
+    background-color: black;
+    border: 2px solid red;
+}
+
+#ufrodavigale {
+    color: purple;
+    background-color: yellow;
+    border: 2px solid purple;
+}

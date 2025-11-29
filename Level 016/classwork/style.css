@@ -1,0 +1,50 @@
+/* Homeworkl 1 CSS */
+
+.p1 {
+    text-decoration: line-through green wavy;
+}
+
+.p2 {
+    text-decoration: overline blue double;
+}
+
+.p3 {
+    text-decoration: underline red dotted;
+}
+
+.p4 {
+    text-decoration: overline purple dashed;
+}
+
+.p5 {
+    text-decoration: overline underline blue wavy;
+}
+
+.p6 {
+    text-decoration: overline line-through underline orange dashed;
+}
+
+/* Homework 2 CSS */
+
+.par1 {
+    color: #ff3d9b;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-transform: lowercase;
+    text-shadow: 2px 0.5px 0px #8447f2;
+}
+
+.par2 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 0px #79f97b;
+}
+
+.par3 {
+    color: #8447f2;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-shadow: 2px 0.5px 0px #ff3d9b;
+}

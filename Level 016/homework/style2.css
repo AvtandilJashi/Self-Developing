@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Syriac+Western:wght@100..900&family=Yusei+Magic&display=swap');
+
+.p1 {
+    font-family: "Economica", sans-serif;
+}
+
+.p2 {
+    font-family: "Noto Sans Syriac Western", sans-serif;
+}
+
+.p3 {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.p4 {
+    font-family:  "Amita", serif;
+}
+
+.p5 {
+    font-family: "Yusei Magic", sans-serif;
+}
