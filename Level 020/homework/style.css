@@ -1,0 +1,90 @@
+/* Homework 1  CSS */
+
+.t1 {
+    border-collapse: collapse;
+}
+
+.t1 th {
+    background-color: #3697dc;
+}
+
+.even1:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+
+
+/* Homework 2  CSS */
+
+.t2 {
+    border-collapse: collapse;
+    border: #8ea955;
+}
+
+.t2 th {
+    background-color: #96be25;
+}
+
+
+
+/* Homework 5  CSS */
+
+.h5th1 {
+    background-color: #80ff00;
+}
+
+.h5th2 {
+    background-color: #dc133d;
+}
+
+.same {
+    background-color: #b98602;
+}
+
+.same1 {
+    background-color: #8ebc8e;
+}
+
+.h5td1 {
+    background-color: #00bffe;
+}
+
+.h5td2 {
+    background-color: #8c008a;
+}
+
+.h5td3 {
+    background-color: #fbfb7f;
+}
+
+
+
+/* Homework 6  CSS */
+
+.t6 {
+    border-collapse: collapse;
+}
+
+.t6 th {
+    background-color: #00cccc;
+    color: white;
+}
+
+
+
+/* Homework 7  CSS */
+
+.t7 {
+    border-collapse: collapse;
+    border: #569685;
+}
+
+.t7 th {
+    background-color: #01836a;
+    color: white;
+}
+
+#diff {
+    color: black;
+    text-decoration: dashed underline double;
+}

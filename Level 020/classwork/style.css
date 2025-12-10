@@ -1,0 +1,13 @@
+/* Classwork 1 CSS*/
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #28a745;  
+}
+
+tr:nth-child(odd) {
+    background-color: #17a2b8;
+}
