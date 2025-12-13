@@ -6,6 +6,7 @@
 
 .t1 th {
     background-color: #3697dc;
+    color: white;
 }
 
 .even1:nth-child(even) {
@@ -86,5 +87,5 @@
 
 #diff {
     color: black;
-    text-decoration: dashed underline double;
+    text-decoration: underline double;
 }
