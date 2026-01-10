@@ -1,0 +1,37 @@
+/* Classwork 1  CSS */
+
+.btn1 {
+    padding: 40px;
+}
+
+.btn2 {
+    padding: 20px 60px;
+}
+
+.btn3 {
+    padding: 10px 18px 51px 87px;
+}
+
+
+
+/* Classwork 2  CSS */
+
+div {
+    width: 150px;
+    height: 150px;
+}
+
+.div1 {
+    background-color: red;
+    margin: 65px;
+}
+
+.div2 {
+    background-color: green;
+    margin: 200px 59px;
+}
+
+.div3 {
+    background-color: blue;
+    margin: 131px 23px 0px 126px;
+}

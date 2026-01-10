@@ -1,0 +1,60 @@
+.p1 {
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  border: 1px solid black;
+}
+
+.div1 {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  background: lightblue;
+}
+
+.p2 {
+  padding: 30px 10px;
+  border: 1px solid red;
+}
+
+.btn {
+  padding-left: 25px;
+}
+
+.div2 {
+  padding: 20px;
+  background: lightgreen;
+}
+
+.div3 {
+  margin: 20px;
+  background: lightcoral;
+}
+
+.p3 {
+  margin: 30px 10px;
+  border: 1px solid blue;
+}
+
+.div4 {
+  margin-bottom: 40px;
+  background: lightgray;
+}
+
+.div5 {
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  background: orange;
+}
+
+.div6 {
+  margin-top: 30px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  background: yellow;
+}

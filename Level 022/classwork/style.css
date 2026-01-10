@@ -1,0 +1,60 @@
+/* Classwork 1  CSS */
+
+li:nth-child(1) {
+    list-style-type: disc;
+}
+
+li:nth-child(2) {
+    list-style-type: none;
+}
+
+li:nth-child(3) {
+    list-style-type: circle;
+}
+
+li:nth-child(4) {
+    list-style-type: square;
+}
+
+
+
+/* Homework 2  CSS */
+
+li:nth-child(1) {
+    list-style-type: georgian;
+}
+
+li:nth-child(2) {
+    list-style-type: lower-alpha;
+}
+
+li:nth-child(3) {
+    list-style-type: upper-alpha;
+}
+
+li:nth-child(4) {
+    list-style-type: decimal;
+}
+li:nth-child(5) {
+    list-style-type: decimal-leading-zero;
+}
+
+li:nth-child(6) {
+    list-style-type: upper-roman;
+}
+
+
+
+/* Homework 3  CSS */
+
+li {
+    list-style-position: inside;
+}
+
+
+
+/* Homework 4  CSS */
+
+li {
+    list-style: inside url("icon.png");
+}

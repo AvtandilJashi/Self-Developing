@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Home Page CSS */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+    font-size: 20px;
+    transition: 1s;
+}
+
+nav:hover {
+    cursor: pointer;
+    font-size: 22px;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+    color: chartreuse;
+    background-color: black;
+}
+
+
+
+/* More Page CSS */
+
+p {
+    color: chartreuse;
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+img {
+    margin: 50px 0px 0px 110px;
+}
+
+.it {
+    margin-left: 98px;
+}
+
+.mma {
+    margin: -27px 0px 0px 650px;
+}
+
+
+
+/* Price Page CSS */
+
+.table1 {
+    margin: 30px 0px 0px 80px;
+    text-align: center;
+    background-color: black;
+    color: chartreuse;
+    border-collapse: collapse;
+    border: 3px solid chartreuse;
+}
+
+.table2 {
+    margin: -85px 0px 0px 850px;
+    text-align: center;
+    background-color: black;
+    color: chartreuse;
+    border-collapse: collapse;
+    border: 3px solid chartreuse;
+}
+
+
+
+/* Contact Page CSS*/
+
+button {
+    border: none;
+    background-color: black;
+    font-size: 20px;
+}
+
+
+
+/* Help Page CSS */
+
+form {
+    margin-top: 50px;
+    color: chartreuse;
+    background-color: black;
+}
+
+input {
+    color: chartreuse;
+    background-color: white;
+    border: none;
+}

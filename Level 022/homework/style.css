@@ -1,0 +1,132 @@
+/* Homework 1  CSS
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    background-color: #f3f3f1;
+    width: 250px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+
+input:placeholder {
+    color: black;
+}
+
+input[type='submit'] {
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    background-color: #4db053;
+    color: white;
+}
+
+p {
+    color: grey;
+    text-align: center;
+}
+
+b {
+    color: #4db153;
+    font-weight: normal;
+} */
+
+
+
+/* Homework 2  CSS */
+
+/* body {
+    /* background-color: #4db053; */
+
+/* 
+input {
+    border-radius: 40px;
+    border: 2px solid black;
+    text-align: center;
+    width: 200px;
+}
+ */
+
+
+/* Homework 3  CSS */
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    background-color: #f3f3f1;
+}
+
+input[type='submit'] {
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+input[type='submit']:hover {
+    width: 260px;
+    height: 35px;
+    background-color: #4db053;
+    color: black;
+}
+
+
+
+/* Homework 4  CSS */
+
+li {
+    list-style: url('icon1.png');
+}
+
+
+
+/* Homework 5  CSS */
+
+li {
+    list-style: url('icon2.png');
+}
+
+
+
+/* Homework 6  CSS */
+
+li {
+    list-style: url('icon3.png');
+}
+
+
+
+li {
+    list-style-type: decimal-leading-zero;
+    list-style-type: upper-alpha;
+    list-style-type: square;
+    list-style-type: none;
+    list-style-type: circle;
+}
