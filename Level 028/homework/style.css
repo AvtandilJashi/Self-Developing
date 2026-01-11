@@ -1,0 +1,109 @@
+/* Homework 2 CSS */
+
+.parent1 {
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    gap: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.parent1 div {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+/* Homework 3 CSS */
+
+.parent2 {
+    width: 800px;
+    height: 70px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: end;
+    /* justify-content: space-between; */  
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+}
+
+.parent2 div {
+    width: 50px;
+    height: 50px;
+    background-color: chartreuse;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+/* Homework 4 CSS */
+
+.parent3 {
+    width: 550px;
+    height: 550px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+}
+
+.parent3 div {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+/* Homework 5 CSS */
+
+.parent4 {
+    width: 550px;
+    height: 550px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent4 div {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+/* Homework 6 CSS */
+
+.parent5 {
+    width: 550px;
+    height: 550px;
+    border: 3px solid black;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.parent5 div {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
