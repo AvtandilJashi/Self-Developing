@@ -1,0 +1,72 @@
+/* Classwork 2 CSS */
+
+.parent1 {
+    width: 70%;
+    height: 500px;
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parent1 div {
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+}
+
+
+
+/* Classwork 3 CSS */
+
+.parent2 {
+    width: 700px;
+    height: 700px;
+    border: 3px solid red;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.parent2 div {
+    width: 75px;
+    height: 75px;
+    background-color: greenyellow;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+/* Classwork 4 CSS */
+
+.parent3 {
+    width: 700px;
+    height: 700px;
+    border: 3px solid red;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.parent3 div {
+    width: 75px;
+    height: 75px;
+    background-color: greenyellow;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.diff {
+    width: 70px;
+    height: 70px;
+    background-color: purple;
+    flex-grow: 1;
+}
+
+.diff2 {
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+    flex-basis: 120px;
+}
