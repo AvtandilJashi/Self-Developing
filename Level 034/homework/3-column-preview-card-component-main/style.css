@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    height: 400px;
+    border-radius: 7px;
+    padding: 35px;
+}
+
+.car {
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 55px;
+}
+
+.sedan {
+    padding: 30px;
+    width: 250px;
+    height: 100%;
+    background-color: #e28525;
+}
+
+h1 {
+    color: white;
+    font-family: "Big Shoulders", sans-serif;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 300;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.sedp {
+    font-size: 13px;
+}
+
+.same {
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 11px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.btn1 {
+    color: #e28525;
+    transition: 1s;
+}
+
+.btn1:hover {
+    background-color: #e28525;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.suv {
+    padding: 30px;
+    width: 250px;
+    height: 100%;
+    background-color: #016972;
+}
+
+h2 {
+    font-size: 28px;
+    color: white;
+    font-family: "Big Shoulders", sans-serif;
+}
+
+.suvp {
+    margin-top: 7px;
+    font-size: 12px;
+}
+
+.btn2 {
+    color: #016972;
+    transition: 1s;
+}
+
+.btn2:hover {
+    background-color: #016972;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.luxury {
+    padding: 30px;
+    width: 250px;
+    height: 100%;
+    background-color: #00403f;
+}
+
+h3 {
+    font-size: 28px;
+    color: white;
+    font-family: "Big Shoulders", sans-serif;
+}
+
+.luxp {
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.btn3 {
+    color: #00403f;
+    transition: 1s;
+}
+
+.btn3:hover {
+    background-color: #00403f;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}

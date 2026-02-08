@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Karla", sans-serif;
+    background-color: #f0f0f0;
+}
+
+.parent {
+    width: 700px;
+    height: 45/0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;;
+}
+
+.child1 {
+    width: 100%;
+    height: 50%;
+    padding: 40px;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+
+.child2 {
+    width: 50%;
+    height: 250px;
+    background-color: #2bb3b1;
+}
+
+.child3 {
+    width: 50%;
+    height: 250px;
+    background-color: #4cbdba;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 27px;
+}
+
+h2 {
+    color: hsl(71, 73%, 54%);
+    font-size: 18px;
+}
+
+.child1 p {
+    font-size: 15px;
+    color: hsl(218, 22%, 67%);
+    line-height: 25px;
+}
+
+.both {
+    display: flex;
+    flex-direction: row;
+}
+
+.child2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    justify-content: start;
+    padding: 40px;
+}
+
+h3 {
+    color: hsl(204, 43%, 93%);
+    font-size: 18px;
+}
+
+.child2 div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.dolar {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+.month {
+    color: lightgray;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.access {
+    font-size: 15px;
+    color: hsl(204, 43%, 93%);
+}
+
+button {
+    width: 225px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-weight: bold;
+}
+
+.child3 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+}
+
+.child3 h4 {
+    color: white;
+    font-size: 18px;
+}
+
+.child3 p {
+    font-size: 15px;
+    color: lightgray;
+}

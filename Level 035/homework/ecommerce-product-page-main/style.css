@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    height: 100vh;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+}
+
+h3 {
+    color: black;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+a {
+    color: hsl(219, 9%, 45%);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline #ff7d1a;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    margin-left: 350px;
+}
+
+.img1 {
+    width: 21px;
+}
+
+.img2 {
+    width: 50px;
+}
+
+.mainimg {
+    width: 350px;
+    border-radius: 7px;
+}
+
+.same {
+    width: 70px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.same:hover {
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;    padding: 50px 180px;
+}
+
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.images2 {
+    display: flex;
+    gap: 22px;
+}
+
+h4 {
+    color: hsl(219, 9%, 45%);
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1 {
+    color: black;
+    font-size: 45px;
+}
+
+.p1 {
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 15px;
+    color: hsl(219, 9%, 45%);
+}
+
+.dolarr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.p2 {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.p3 {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.p4 {
+    margin-top: -50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: hsl(219, 9%, 45%);
+    text-decoration: line-through;
+}
+
+.butttons {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.btn1 {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #f7f8fd;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+
+.same2 {
+    width: 10px;
+    cursor: pointer;
+}
+
+.btn2 {
+    padding: 10px 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #ff7d1a;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.btn2:hover {
+    background-color: #ffac6a;
+    cursor: pointer;
+}
+
+.cart {
+    width: 15px;
+}
