@@ -1,0 +1,123 @@
+/* Classwork 1 CSS */
+
+.parent {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 50px;
+}
+
+.same {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.div1 {
+    background-color: red;
+}
+
+.div2 {
+    background-color: blue;
+}
+
+.div3 {
+    background-color: green;
+    position: relative;
+    top: 100px;
+    right: 50px;
+}
+
+
+
+/* Classwork 2 CSS */
+
+.parent2 {
+    width: 600px;
+    height: 600px;
+    border: 2px solid yellow;
+    position: relative;
+}
+
+.second {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.divv1 {
+    background-color: violet;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.divv2 {
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.divv3 {
+    background-color: chartreuse;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+/* Classwork 3 */
+
+.same1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: rgba(247, 16, 197, 0.519);
+    right: 20px;
+    left: 50px;
+}
+
+.same2 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.same3 {
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+}
+
+
+
+/* Classwoprk 4 */
+
+header {
+    background-color: pink;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+a {
+    text-decoration: none;
+}

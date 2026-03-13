@@ -1,0 +1,72 @@
+/* Homework 1  CSS */
+
+.btn1 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+/* Homework 2  CSS */
+
+.header1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: green;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+} 
+
+
+
+/* Homework 3  CSS */
+ 
+.div1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: fixed;
+    top: 50%;
+    left: 0;
+}
+
+
+
+/* Homework 4  CSS */
+
+.div2 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    position: relative;
+}
+
+.img1 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+}
+
+
+
+/* Homework 8  CSS  */
+
+img {
+    position: sticky;
+    top: 0;
+} 

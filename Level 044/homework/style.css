@@ -1,0 +1,181 @@
+/* Homewrok 1  CSS*/
+
+#div1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    transform: translateX(200px);
+}
+
+
+
+/* Homework 2  CSS*/
+
+#div2 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transform: translateY(80px);
+}
+
+
+
+/* Homework 3  CSS */
+
+#div3 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    transform: translateX(-50px);
+}
+
+
+
+/* Homework 4  CSS */
+
+#div4 {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    transform: translateY(-60px);
+}
+
+
+
+/* Homework 5  CSS*/
+
+#div5 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    transform: translate(120px, 70px)
+}
+
+
+
+/* Homework 6  CSS */
+
+#btn1:hover {
+    transform: translate(30px, 65px)
+}
+
+
+
+/* Homework 7  CSS*/
+
+#div7 {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+
+#div7:hover {
+    transform: translateY(-50px);;
+}
+
+
+
+/* Homework 8  CSS */
+
+#div8 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    transform: scaleX(2);
+}
+
+
+
+/* Homework 9  CSS */
+
+#div9 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transform: scaleY(1.5);
+}
+
+
+
+/* Homework 10  CSS */
+
+#div10 {
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    transform: scale(1.5);
+}
+
+
+
+/* Homework 11  CSS */
+
+#btn2:hover {
+    transform: scale(1.2);
+}
+
+
+
+/* Homework 12  CSS*/
+
+#btn3:hover {
+    transform: rotate(90deg);
+}
+
+
+
+/* Homework 13  CSS */
+
+#div13 {
+    width: 120px;
+    height: 120px;
+    background-color: blueviolet;
+    transform: rotate(45deg);
+    transform-origin: right bottom; 
+}
+
+
+
+/* Homework 14  CSS */
+
+#div14 {
+    width: 150px;
+    height: 30px;
+    background-color: chartreuse;
+    transform: rotateX(90deg);
+}   
+
+
+
+/* Homework 15  CSS */
+
+#div15 {
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+}
+
+#div15:hover {
+    transform: rotate(180deg);
+    transform-origin: right top;
+}
+
+
+
+/* Homework 16  CSS */
+
+#div16 {
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    transform: rotate(60deg);
+    transform-origin: top;
+}
+
+
+
+/* Homework 17  CSS */
+
+img {
+    transform: scale(2) rotate(65deg) translate(200px, 400px);
+}

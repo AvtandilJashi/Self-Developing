@@ -1,0 +1,95 @@
+/* Classwork 1  CSS */
+
+.btn1 {
+    transform: translateX(400px);
+}
+
+
+
+/* Classwork 2  CSS */
+
+.btn2 {
+    transform: translateY(200px);
+}
+
+
+
+/* Classwork 3  CSS */
+
+.btn3 {
+    transform: translate(400px, 300px);
+}
+
+
+
+/* Classwork 4  CSS */
+
+.img1 {
+    transform: scaleX(2.4);
+}
+
+
+
+/* Classwork 5  CSS */
+
+.img2 {
+    transform: scaleY(3.1);
+}
+
+
+
+/* Classwork 6  CSS */
+
+.btn3 {
+    transform: scale(1.3);
+}
+
+
+
+/* Classwork 7  CSS */
+
+.btn4 {
+    transform: scale(3) translate(300px, 120px);
+}
+
+
+
+/* Classwork 8  CSS */
+
+.img3 {
+    transform: rotateX(50deg);
+}
+
+
+
+/* Classwork 9  CSS */
+
+.img4 {
+    transform: rotateY(45deg);
+}
+
+
+
+/* Classwork 10  CSS */
+
+.img5 {
+    transform-origin: right top;
+    transform: rotate(120deg);
+}
+
+
+
+/* Classwork 11  CSS */
+
+.img6 {
+    transform: translate(200px, 300px) scale(2.3) rotate(80deg);
+    transform-origin: bottom right;
+}
+
+
+
+/* Classwork 12  CSS */
+
+.img7:hover {
+    transform: rotate(160deg) scale(3);
+}

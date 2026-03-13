@@ -1,0 +1,107 @@
+/* Classwork 1  CSS */
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+#div1 {
+    background-color: blue;
+    position: relative;
+    z-index: 1;
+
+}
+
+#div2 {
+    background-color: red;
+    position: relative;
+    z-index: 2;
+    bottom: 80px;
+    right: 80px;
+}
+
+#div3 {
+    background-color: yellow;
+    position: relative;
+    z-index: 3;
+    bottom: 120px;
+    right: 120px;
+}
+
+#div4 {
+    background-color: green;
+    position: relative;
+    z-index: 4;
+    bottom: 160px;
+    right: 160px;
+}
+
+
+
+/* Classwork 2 */
+
+.same {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    background-image: url("image.png");
+}
+
+#div1 {
+    background-position: bottom right;
+}
+
+#div2 {
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+#div3 {
+    background-repeat: repeat-y;
+    background-position: center bottom;
+}
+
+#div4 {
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+
+
+/* Classwork 3 */
+
+.same {
+    height: 400px;
+    width: 400px;
+    border: 1px solid red;
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#div1 {
+    background-size: 300px;
+
+}
+
+#div2 {
+    background-size: contain;
+}
+
+#div3 {
+    background-size: cover;
+}

@@ -1,0 +1,39 @@
+/* Classwork 1  CSS */
+
+body {
+    font-family: fantasy;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    background-color: blanchedalmond;
+    position: fixed;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-size: 17px;
+}
+
+button {
+    color: blueviolet;
+    background-color: aqua;
+    position: fixed;
+    padding: 30px 50px;
+    right: 0;
+    bottom: 30px;
+}
+
+
+
+/* Classwork 2  CSS*/
+
+img {
+    position: sticky;
+    top: 0;
+}

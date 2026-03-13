@@ -1,0 +1,89 @@
+/* Homework 3  CSS */
+
+.div1 {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  position: relative;
+  left: 50px;
+  top: 60px;
+}
+
+.div2 {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+}
+
+
+
+/* Homework 4  CSS */
+
+.div3 {
+  width: 200px;
+  height: 150px;
+  background-color: green;
+}
+
+.div4 {
+  width: 200px;
+  height: 150px;
+  background-color: orange;
+  position: relative;
+  top: -40px;
+}
+
+
+
+/* Homework 5  CSS */
+
+.div5 {
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+  position: relative;
+  transition: 0.3s;
+}
+
+.div5:hover {
+  top: 50px;
+  left: 60px;
+}
+
+
+
+/* Homework 6  CSS */
+
+.div6 {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  position: absolute;
+  bottom: 150px;
+  right: 200px;
+}
+
+
+
+/* Homework 7  CSS */
+
+.parent {
+  width: 500px;
+  height: 500px;
+  border: 3px solid red;
+  position: relative;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+
+
+/* Homework 8  CSS */
+
