@@ -1,0 +1,499 @@
+/* Homework 1 */
+
+#div1 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    transition: 1s;
+}
+
+#div1:hover {
+    width: 300px;
+    background-color: red;
+    transition: 1.5s;
+}
+
+
+
+/* Homework 2 */
+
+#btn1:hover {
+    background-color: chocolate;
+    color: chartreuse;
+}
+
+
+
+/* Homework 3 */
+
+#div3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 0.5s, heigth 1s;
+}
+
+#div3:hover {
+    width: 400px;
+    height: 400px;
+}
+
+
+
+/* Homework 4 */
+
+.same {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#div4:hover {
+    transition: ease-out;
+}
+
+#div5:hover {
+    transition: ease-in;
+}
+
+#div6:hover {
+    transition: linear;
+}
+
+#div7:hover {
+    transition: ease;
+}
+
+
+
+/* Homework 5 */
+
+#div8 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    transition: 1.5s;
+}
+
+#div8:hover {
+    transform: scale(2) rotate(60deg);
+}
+
+
+
+/* Homework 6 */
+
+#div9 {
+    width: 200px;
+    height: 200px;
+    border: 5px solid red;
+    transition: 5s;
+}
+
+#div9:hover {
+    border: 5px solid blue;
+}
+
+
+
+/* Homework 7 */
+
+header {
+    width: 100%;
+    height: 300px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    transition: 1.5s;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline red;
+}
+
+
+
+/* Homework 8 */
+
+#circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 360px;
+    background-color: red;
+    transition: width 3s, heigth 3s, background-color 5s;
+}
+
+#circle:hover {
+    width: 150px;
+    height: 150px;
+    background-color: blue
+}
+
+
+
+/* Homework 9 */
+
+#div10 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transition: 1s;
+}
+
+#div10:hover {
+    transform: scale(3);
+    background-color: red;
+    border: 360px;
+}
+
+
+
+/* Homework 10 */
+
+.same2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transition: 1s;
+}
+
+#delay1:hover {
+    background-color: burlywood;
+}
+
+#delay2 {
+    transition-delay: 0.5s;
+}
+
+#delay2:hover {
+    background-color: aquamarine;
+}
+
+#delay3 {
+    transition-delay: 1s;
+}
+
+#delay3:hover {
+    background-color: brown;
+}
+
+
+
+/* Homework 11 */
+
+#div11 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: 1s;
+}
+
+#div11:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 1px 1px blue;
+    background-color: darkgoldenrod;
+}
+
+
+
+/* Homework 12 */
+
+#btn12 {
+    transition: 2s;
+}
+
+#btn12:hover {
+    transform: rotate(5deg);
+    color: gold;
+}
+
+#btn12:hover {
+    width: 50px;
+}
+
+
+
+/* Homework 13 */
+
+#div13 {
+    transform: translateX(-50px);
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    transition: transform 3s, background-color 5s;
+}
+
+#div13 {
+    transform: translateX(50px);
+    background-color: red;
+}
+
+
+
+/* Homework 14 */
+
+img {
+    transition: transform 2.5s, opacity 4s;
+}
+
+img:hover {
+    transform: rotate(180deg);
+    opacity: 30%;
+}
+
+
+
+/* Homework 15 */
+
+#div15 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    transition: 1.5s;
+}
+
+#div15:hover {
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* Homework 16 */
+
+#div16 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    animation-name: opac;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes opac {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+/* Homework 17 */
+
+#btn17 {
+    animation-name: right;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+
+@keyframes right {
+    form {
+        transform: translateX(-200px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+
+/* Homework 18 */
+
+#div18 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: colors;
+    animation-delay: 3s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colors {
+    from {
+        background-color: red
+    }
+
+    to {
+        background-color: blue;
+    }
+}
+
+
+
+/* Homework 19 */
+
+#img2 {
+    animation-name: rot;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+}
+
+@keyframes rot {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/* Homework 20 */
+
+#btn20 {
+    animation-name: big;
+    animation-delay: 2s;
+    animation-iteration-count: 7;
+    animation-duration: 3s;
+}
+
+@keyframes big {
+    from {
+        transform: scale(0.3);
+    }
+
+    to {
+        transform: scale(2);
+    }
+}
+
+
+
+/* Homework 21 */
+
+#div21 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: left;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-delay: 1s;
+}
+
+@keyframes left {
+    from {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+    }
+
+    to {
+        transform: translateX(200px) scale(3);
+    }
+}
+
+
+
+/* Homework 22 */
+
+#div22 {
+    width: 200px;
+    height: 200px;
+    background-color: rebeccapurple;
+    animation-name: transforms;
+    animation-duration: 1.5s;
+    animation-iteration-count: 5;
+}
+
+@keyframes transforms {
+    from {
+        transform: scale(0.5) rotate(0deg);
+    }
+
+    to {
+        transform: scale(1.2) rotate(360deg);
+    }
+}
+
+
+
+/* Homework 23*/
+
+#div23 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: alarm;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+}
+
+@keyframes alarm {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.3;
+    }
+}
+
+
+
+/* Homework 24 */
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 360px;
+    animation-name: circles;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+#circle1 {
+    animation-delay: 0;
+}
+
+#circle2 {
+    animation-delay: 0.2s;
+}
+
+#circle3 {
+    animation-delay: 0.4s;
+}
+
+#circle4 {
+    animation-delay: 0.6s;
+}
+
+#circle5 {
+    animation-delay: 0.8;
+}
+
+
+@keyframes circles {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(200px);
+    }
+}

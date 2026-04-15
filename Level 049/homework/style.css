@@ -1,0 +1,140 @@
+/* Homework 1  CSS */
+
+.parent1 {
+    display: grid;
+    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: repeat(3, 150px);
+    gap: 10px;
+}
+
+.child1 {
+    background-color: #00dd99;
+    grid-area: 1/1/2/2;
+}
+
+.child2 {
+    background-color: #dd9900;
+    grid-area: 1/2/2/3;
+}
+
+.child3 {
+    background-color: #9900dd;
+    grid-area: 1/3/2/4;
+}
+
+.child4 {
+    background-color: #dd0099;
+    grid-area: 2/1/3/2;
+}
+
+.child5 {
+    background-color: #99dd00;
+    grid-area: 2/2/4/4;
+}
+
+.child6 {
+    background-color: #0099dd;
+    grid-area: 3/1/4/2;
+}
+
+
+
+/* Homework 2  CSS */
+
+.parent2 {
+    display: grid;
+    background-color: #2b2e56;
+    gap: 15px;
+    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: repeat(4, 150px);
+}
+
+.child7 {
+    background-color: #6dbe4f;
+    grid-area: 1/1/4/2;
+}
+
+.child8 {
+    background-color: #6dbe4f;
+    grid-area: 1/2/2/4;
+}
+
+.child9 {
+    background-color: #ec3437;
+    grid-area: 1/4/2/5;
+}
+
+.child10 {
+    background-color: #fbb22f;
+    grid-area: 2/2/3/3;
+}
+
+.child11 {
+    background-color: #ec3437;
+    grid-area: 2/3/3/4;
+}
+
+.child12 {
+    background-color: #6dbe4f;
+    grid-area: 2/4/4/5;
+}
+
+.child13 {
+    background-color: #ec3437;
+    grid-area: 3/2/4/3;
+}
+
+.child14 {
+    background-color: #fbb22f;
+    grid-area: 3/3/4/4;
+}
+
+
+
+/* Homework 3  CSS */
+
+.parent3 {
+    display: grid;
+    gap: 5px;
+    background-color: #fcdcc3;
+    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: repeat(3, 150px);
+}
+
+.child15 {
+    background-color: #1b7d99;
+    grid-area: 1/1/3/2;
+}
+
+.child16 {
+    background-color: #fda602;
+    grid-area: 1/2/2/3;
+}
+
+.child17 {
+    background-color: #1b7d99;
+    grid-area: 1/3/2/4;
+}
+
+.child18 {
+    background-color: #f41066;
+    grid-area: 2/2/3/3;
+}
+
+.child19 {
+    background-color: #24dbc6;
+    grid-area: 2/3/4/4;
+}
+
+.child20 {
+    background-color: #24dbc6;
+    grid-area: 3/1/4/2;
+}
+
+.child21 {
+    background-color: #1b7d99;
+    grid-area: 3/2/4/3;
+}
+
+
+

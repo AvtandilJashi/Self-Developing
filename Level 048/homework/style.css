@@ -1,0 +1,137 @@
+/* Homework 1 */
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+}
+
+
+
+/* Homework 2 */
+
+.grid2 {
+  display: grid;
+  grid-template-rows: 100px 200px;
+}
+
+
+
+/* Homework 3 */
+
+.grid3 {
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-template-rows: 120px 120px 120px;
+}
+
+
+
+/* Homework 4 */
+
+.grid4 {
+  display: grid;
+  grid-template-columns: 60px 60px 60px 60px 60px;
+  grid-template-rows: 200px;
+}
+
+
+
+/* Homework 5 */
+
+.grid5 {
+  display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: 50px 100px 150px 200px;
+}
+
+
+
+/* Homework 6 */
+
+.grid6 {
+  display: grid;
+  grid-template-columns: 120px 80px 200px 100px;
+  grid-template-rows: 100px 50px;
+}
+
+
+
+/* Homework 7 */
+
+.grid7 {
+  display: grid;
+  grid-template-columns: 300px 100px;
+  grid-template-rows: 200px 200px;
+}
+
+
+
+/* Homework 8 */
+
+.grid8 {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
+
+
+
+/* Homework 9 */
+.grid9 {
+
+  display: grid;
+  grid-template-columns: 100px 300px 150px;
+}
+
+
+
+/* Homework 10 */
+
+.grid10 {
+  display: grid;
+  grid-template-columns: 50px 100px 150px 200px;
+}
+
+
+
+/* Homework 11 */
+
+.grid11 {
+  display: grid;
+  grid-template-rows: 100px 150px 150px;
+}
+
+
+
+/* Homework 12 */
+
+.grid12 {
+  display: grid;
+  grid-template-columns: 100px 200px;
+}
+
+
+
+/* Homework 13 */
+
+.grid13 {
+  display: grid;
+  grid-template-columns: 100px 120px 140px 160px 100px;
+}
+
+
+
+/* Homework 14 */
+
+.grid14 {
+  display: grid;
+  grid-template-rows: 100px 100px 150px 200px;
+}
+
+
+
+/* Homework 15 */
+
+.grid15 {
+  display: grid;
+  grid-template-columns: 300px 150px 150px 100px;
+}

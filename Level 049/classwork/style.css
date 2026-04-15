@@ -1,0 +1,75 @@
+/* Classwork 1 */
+
+#grid1 {
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+    gap: 10px;
+    background-color: #2b2e56;
+}
+
+.child1 {
+    background-color: #6dbe4f;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.child2 {
+    background-color: #6dbe4f;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.child3 {
+    background-color: #fbb22f;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.child4 {
+    background-color: #ec3437;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.child5 {
+    background-color: #ec3437;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.child6 {
+    background-color: #fbb22f;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+
+
+/* Classwork 2 */
+
+#parent {
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(4, 100px);
+} 
+
+.child7 {
+    background-color: blue;
+    /* grid-row: 3/4;
+    grid-column: 4/5; */
+
+    grid-area: 3/4/4/5;
+}

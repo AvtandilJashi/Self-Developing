@@ -1,0 +1,82 @@
+/* Classwork 1  CSS */
+
+.heading1 {
+    transition: color 3s,  font-weight 5s,  font-size 1s,  font-family 7s,  transform 6s;
+}
+
+.heading1:hover {
+    color: blue;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: monospace;
+    transform: rotate(160deg);
+}
+
+
+
+/* Classwork 2  CSS */
+
+.div1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: background-color 2s,  border-radius 3s,  transform 4s;
+    transition-timing-function: ease-in;
+    transition-delay: 4s;
+}
+
+.div1:hover {
+    background-color: blue;
+    border-radius: 20px;
+    transform: rotate(360deg) scale(2) translateX(200px); 
+}
+
+
+
+/* Classwork 3  CSS */
+
+.div2 {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    animation-name: anim;
+    animation-duration: 3s;
+}
+
+@keyframes anim {
+    from {
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+    }
+
+    to {
+        transform: translateY(300px) rotate(360deg) scale(2);
+        background-color: red;
+        border-radius: 50%;
+    }
+}
+
+
+
+/* Classwork 4  CSS */
+
+img {
+    width: 300px;
+    animation-name: image;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes image {
+    from {
+        width: 300px;
+    }
+
+    to {
+        transform: translate(200px, 100px) scale(3);
+        opacity: 0;
+    }
+}

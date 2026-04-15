@@ -1,0 +1,8 @@
+.parent {
+    width: 500px;
+    height: 500px;
+    border: 3px solid blue;
+    display: grid;
+    grid-template-rows: 150px 100px 200px 50px;
+    grid-template-columns: 100px 50px 80px 70px 150px 50px;
+}
