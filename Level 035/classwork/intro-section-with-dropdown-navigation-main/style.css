@@ -84,3 +84,158 @@ p {
 .div2 img {
     width: 80px;
 }
+
+
+
+/* Header responsive */
+
+@media (max-width: 850px) {
+    nav {
+        gap: 20px;
+        font-size: 13px;
+    }
+
+    .reg {
+        gap: 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .reg {  
+        display: none;
+    }
+
+    .menu {
+        display: block !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .alldivs {
+        font-size: 13px;
+    }
+}
+
+
+
+/* Main responsive (div1) */
+
+@media (max-width: 850px) {
+    .div1 {
+        gap: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 1;
+    }
+
+    buttton {
+        padding: 9px;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+
+    buttton {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 320px) {
+    .div1 {
+        gap: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    buttton {
+        padding: 3px;
+    }
+}
+
+
+
+/* (div2) responsive */
+
+@media (max-width: 1050px) {
+    .desktop {
+        width: 250px;
+    }
+
+    .div2 {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 950px) {
+    main {
+        gap: 100px;
+    }
+}
+
+@media (max-width: 800px) {
+    .desktop {
+        width: 180px;
+    }
+
+    .div2 {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 650px) {
+    .desktop {
+        width: 160px;
+    }
+
+    .div2 {
+        gap: 5px;
+    }
+
+    main {
+        gap: 50px;
+    }
+}
+
+@media (max-width: 550px) {
+    .desktop {
+        width: 140px;
+    }
+
+    .div2 {
+        gap: 3px;
+    }
+
+    main {
+        gap: 30px;
+    }
+
+    .div2 img {
+        width: 60px;
+    }
+}
