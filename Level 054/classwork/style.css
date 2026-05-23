@@ -364,9 +364,9 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     color: white;
-    padding: 0px 100px;
+    padding: 40px 100px;
     font-weight: 300;
     font-size: 11px;
 }
