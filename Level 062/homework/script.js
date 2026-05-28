@@ -47,7 +47,7 @@ else {
 
 let user5 = prompt('Enter value: ')
 
-if (user5 == String) {
+if (typeof(user5) === 'string') {
     console.log('this is string')
 }
 
