@@ -3,7 +3,7 @@
 let user1 = Number(prompt('Enter your age: '))
 
 if (user1 > 18 && user1 < 60) {
-    console.log('თქვენ შეგიძლიათ რეგისტრაცი')
+    console.log('თქვენ შეგიძლიათ რეგისტრაცია')
 }
 
 
