@@ -2,7 +2,7 @@
 
 let ages = [12, 18, 25, 14, 30, 16, 21, 10];
 
-ages.filter((item) => item >= 18 && item)
+let filteredage = ages.filter((item) => item >= 18 && item)
 
 
 
@@ -10,7 +10,7 @@ ages.filter((item) => item >= 18 && item)
 
 let prices = [20, 50, 100, 35, 80];
 
-prices.map((item1) => item1 * 20)
+let filteredprices = prices.map((item1) => item1 * 20)
 
 
 
@@ -24,10 +24,10 @@ numbers.forEach((item2) => console.log('რიცხვი: ' + item2))
 
 // Homework 4
 
-let numbers = [3, 8, 12, 5, 20, 7, 15, 2];
+let numbers3 = [3, 8, 12, 5, 20, 7, 15, 2];
 
-numbers.filter((item3) => item3 > 10 && item3)
-numbers.map((item3) => item3 * 2)
+let filteresnumbers3 = numbers3.filter((item3) => item3 > 10 && item3)
+let mapednumbers3 = numbers3.map((item3) => item3 * 2)
 
 
 
@@ -35,8 +35,8 @@ numbers.map((item3) => item3 * 2)
 
 let names = ["gio", "nika", "ana", "luka"];
 
-names.map((item4) => item3.toUpperCase())
-names.forEach((item4) => console.log(item4))
+let mapednames = names.map((item4) => item3.toUpperCase())
+mapednames.forEach((item4) => console.log(item4))
 
 
 
@@ -44,8 +44,8 @@ names.forEach((item4) => console.log(item4))
 
 let numbers1 = [10, 3, 25, 8, 40, 15, 2];
 
-numbers1.filter((item5) => item5 > 10)
-numbers.forEach((item5) => console.log('დიდი რიცხვია: ' + item5))
+let filterednumbers1 = numbers1.filter((item5) => item5 > 10)
+filterednumbers1.forEach((item5) => console.log('დიდი რიცხვია: ' + item5))
 
 
 
@@ -53,8 +53,8 @@ numbers.forEach((item5) => console.log('დიდი რიცხვია: ' + 
 
 let words = ["cat", "elephant", "dog", "computer", "sun", "javascript"];
 
-words.filter((item6) => item6.length > 6)
-words.map((item6) => console.log(item6.toUpperCase()))
+let filteredwords = words.filter((item6) => item6.length > 6)
+filteredwords.map((item6) => item6.toUpperCase())
 
 
 
@@ -62,7 +62,7 @@ words.map((item6) => console.log(item6.toUpperCase()))
 
 let numbers2 = [4, 15, 8, 22, 31, 6, 18, 45, 10, 3];
 
-numbers2.filter((item7) => item7 > 10)
-numbers2.map((item7) => item7 * 2)
-numbers2.map((item7) => item7 + 5)
-numbers2.forEach((item7) => console.log('შედეგი: ' + item7))
+let filterednumbers2 = numbers2.filter((item7) => item7 > 10)
+let mapednumbers2 = filterednumbers2.map((item7) => item7 * 2)
+let twomapednumbers2 = mapednumbers2.map((item7) => item7 + 5)
+twomapednumbers2.forEach((item7) => console.log('შედეგი: ' + item7))
